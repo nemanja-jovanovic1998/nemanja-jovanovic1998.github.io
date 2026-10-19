@@ -1,9 +1,9 @@
 :root {
   --paper: #f6f4ef;
   --ink: #141414;
-  --ink-60: rgba(20, 20, 20, 0.62);
-  --ink-40: rgba(20, 20, 20, 0.42);
-  --rule: rgba(20, 20, 20, 0.14);
+  --ink-60: rgba(20, 20, 20, 0.74);
+  --ink-40: rgba(20, 20, 20, 0.56);
+  --rule: rgba(20, 20, 20, 0.22);
   --accent: #8a1f2b;
 }
 
@@ -76,14 +76,14 @@ section:last-child { border-bottom: 0; }
 
 h2 {
   margin: 0 0 22px;
-  font-size: 12px;
+  font-size: 12.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ink-40);
+  color: var(--ink-60);
   font-weight: 600;
 }
 
-.intro p { margin: 0 0 16px; max-width: 66ch; }
+.intro p { margin: 0 0 16px; max-width: 64ch; }
 .intro p:last-child { margin-bottom: 0; }
 
 .item { padding: 0 0 30px; margin: 0 0 30px; border-bottom: 1px solid var(--rule); }
